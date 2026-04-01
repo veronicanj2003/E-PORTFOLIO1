@@ -216,13 +216,17 @@ nav {
 
 /* PROJECTS */
 
+.project {
+    margin-bottom: 135px;
+}
+
 .project__img {
     width: 100%;
     transition: all 500ms ease;
 }
 
 .project__wrapper {
-   position: realative;
+   position: relative;
 
 }
 
@@ -253,7 +257,7 @@ width:100%;
 .project__description {
     position: absolute;
     top:50%;
-    left:auto50%;
+    left:auto50;
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: opacity 0.3s ease;
