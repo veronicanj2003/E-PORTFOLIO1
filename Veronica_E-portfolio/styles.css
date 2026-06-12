@@ -336,7 +336,11 @@ footer {
 
 }
 
-.footer__social--link,
+.footer__social--link {
+    color: white;
+  text-decoration: none;
+  margin 0 12px; /* Add some spacing between links */ 
+}
 .footer__copyright {
   color: white;
   text-decoration: none;
